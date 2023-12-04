@@ -22,6 +22,20 @@ Curso de Udemy de Fernando Herrera: React Pro
 
 ---
 
+## Para reforzar React + TypeScript
+
+[Se puede ver en este link](https://www.youtube.com/playlist?list=PLCKuOXG0bPi26-eawizqyLOgM7j66H_4M)
+
+---
+
+## ¿Qué hay?
+
+- En **teoría** hay anotaciones sobre la teoria vista
+
+- En **bases** esta el primer proyecto para ver las bases de React con TypeScript
+
+---
+
 ## Instalaciones recomendadas
 
 ### Instalaciones Necesarias
@@ -79,3 +93,8 @@ git config --global user.email "Tu correo"
 - [CSS Modules](https://marketplace.visualstudio.com/items?itemName=clinyong.vscode-css-modules)
 
 - [MDX](https://marketplace.visualstudio.com/items?itemName=silvenon.mdx)
+
+
+---
+
+
