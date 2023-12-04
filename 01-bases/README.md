@@ -1,5 +1,9 @@
 # Bases de React con TypeScript
 
+1. Voy a la carpeta del proyecto: `cd 01-bases`
+
+2. Levantamos la aplicación con **yarn**: ``yarn start`` y se ve la aplicación en: [http://localhost:3000/](http://localhost:3000/)
+
 ---
 
 
