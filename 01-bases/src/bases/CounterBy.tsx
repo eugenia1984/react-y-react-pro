@@ -27,7 +27,7 @@ const CounterBy: FC<CounterProps> = ({ initialValue = 5 }) => {
   return (
     <>
       <h1>Counter: { counter }</h1>
-      <h2>Clicks: { clicks }</h2>
+      <p>Clicks: { clicks }</p>
       <button onClick={ () => handleClick(1) }>+1</button>
       <button onClick={ () => handleClick(5) }>+5</button>
     </>
