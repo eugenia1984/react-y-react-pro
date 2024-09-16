@@ -72,6 +72,6 @@ npm install
 npm run dev
 ```
 
--> para ver el proyecto en local.
+-> para ver el proyecto en local en: [http://localhost:5173/](http://localhost:5173/).
 
 ---
