@@ -15,4 +15,8 @@ Temas:
 - Async - Await
 ```
 
+Dentro de `src/bases` se encuentran lso archivos de JavaScript deparados por temas.
+
+En `App.jsx` se van reflejando algunos de los temas,
+
 ---
