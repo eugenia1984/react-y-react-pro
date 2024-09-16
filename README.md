@@ -6,9 +6,9 @@ Cursos de Fernando Herrera: **React** y **React Pro**
 
 # ¿Qué hay?
 
-- En **teoría** hay anotaciones sobre la teoria vista
+- En [**teoría**](https://github.com/eugenia1984/react-y-react-pro/blob/main/teoria.md) hay anotaciones sobre la teoria vista
 
-- En **react** está la práctica de React.
+- En [**react**](https://github.com/eugenia1984/react-y-react-pro/tree/main/react) está la práctica de React.
 
 ---
 
