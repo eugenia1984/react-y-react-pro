@@ -46,3 +46,32 @@ Cursos de Fernando Herrera: **React** y **React Pro**
 [Se puede ver en este link](https://www.youtube.com/playlist?list=PLCKuOXG0bPi26-eawizqyLOgM7j66H_4M)
 
 ---
+
+## Para crear proyectos de React con Vite
+
+| npm | pnpm | yarn |
+| --- | ---- | ---- |
+| `npm create vite@latest` | `pnpm create vit` | `yarn create vite` |
+
+Y luego creamos el proyecto con los sigueintes pasos:
+
+1. Nombre del proyecto
+
+2. Framework: React
+
+3. Variant: JavaScript + SWC
+
+4. Con el comando: `cd <nombre-del-proyecto>` ingresamos en el directorio del proyecto, y luego: 
+
+```bash
+npm install
+``` 
+-> para instalar las dependencias 
+
+``` bash
+npm run dev
+```
+
+-> para ver el proyecto en local.
+
+---
