@@ -8,7 +8,6 @@ Cursos de Fernando Herrera: **React** y **React Pro**
 
 - En **teoría** hay anotaciones sobre la teoria vista
 
-- En **01-bases** esta el primer proyecto para ver las bases de React con TypeScript
 
 ---
 
@@ -27,6 +26,12 @@ Cursos de Fernando Herrera: **React** y **React Pro**
 - <img width="24" height="24" src="https://img.icons8.com/office/24/react.png" alt="react"/> React
 
 - <img width="24" height="24" src="https://img.icons8.com/color/24/nodejs.png" alt="nodejs"/> Nodejs
+
+- Postman
+
+- Mongo Compass
+
+- Git
 
 ---
 
