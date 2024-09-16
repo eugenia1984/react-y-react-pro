@@ -102,3 +102,5 @@ const h1Tag = document.createElement('h1', null, 'Hola mundo');
 - [01-intro-react](https://github.com/eugenia1984/react-y-react-pro/tree/main/react/01-intro-react)
 
 Primera aplicacion con el CDN de React, ReactDOM y Babel.
+
+- [02-javascript-moderno](https://github.com/eugenia1984/react-y-react-pro/tree/main/react/02-javascript-moderno), para tener la base de JavaScript moderno (ES6).
