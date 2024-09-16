@@ -31,3 +31,9 @@ Primera aplicacion con el CDN de React:
 ```
 
 - Solo con **React**, **ReactDOM** y **Babel**.
+
+## Babel
+
+funciona en el background con REact, permitiendo utilizar ES6 en navegadores que aun no aceptan las nuevas características de JavaScript, sin tener que preocuparnos por la compoatibilidad de los navegadores.
+
+---
