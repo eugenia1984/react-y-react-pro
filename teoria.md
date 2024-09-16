@@ -58,3 +58,41 @@ git config --global user.email "Tu correo"
 - [MDX](https://marketplace.visualstudio.com/items?itemName=silvenon.mdx)
 
 ---
+---
+
+# ¿QUE ES REACT?
+
+- Es una **librería**.
+
+- Es **declarativa**
+
+- Es **eficiente** con su Virtual DOM
+
+- Trabaja de manera prevesible (one way data binding), hay una unica fuente de verdad, la información viaja en una sola vía.
+
+- Se crean **componentes**, piezas más pequeñas, fáciles de mantener
+
+- Server-side con Node.js y aplicaciones móbiles con **React Native**.
+
+## Código de React
+
+JSX = JS + XML
+
+```JSX
+// hacemos referencia a un div con el id root
+const divRoot = document.querySelector('#root');
+
+// ReactDOM tiene un método llamado .render(), con dos parametros
+// lo que va a estar renderizado y donde
+ReactDOM.render(<h1>Hola mundo</h1>, divRoot);
+```
+
+Sino sería:
+
+```JavaScript
+const h1Tag = <h1>Hola mundo</h1>;
+const h1Tag = document.createElement('h1', null, 'Hola mundo');
+```
+
+---
+---

@@ -8,6 +8,7 @@ Cursos de Fernando Herrera: **React** y **React Pro**
 
 - En **teoría** hay anotaciones sobre la teoria vista
 
+- En **react** está la práctica de React.
 
 ---
 
