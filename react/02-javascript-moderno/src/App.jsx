@@ -19,6 +19,9 @@ function App() {
     }
   }
   const person2 = {...person}
+  // Arrays
+  const array1 = [1, 2, 3, 4];
+  const array2 = [...array1, 5];
 
   return (
     <div>
@@ -36,6 +39,12 @@ function App() {
         <br />
         <p>person2.firstName: {person2.firstName}</p>
       </section>
+      <hr />
+      <section>
+        <h2>Arrays</h2>
+        {array2.map(el => <span key={`elemento-${el}`}> * {el}</span>)}
+      </section>
+      <hr />
     </div>
   )
 }
