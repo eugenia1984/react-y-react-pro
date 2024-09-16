@@ -96,3 +96,7 @@ const h1Tag = document.createElement('h1', null, 'Hola mundo');
 
 ---
 ---
+
+## 01-intro-react
+
+Primera aplicacion con el CDN de React, ReactDOM y Babel.
