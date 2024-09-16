@@ -1,6 +1,6 @@
-# <img width="36" height="36" src="https://img.icons8.com/office/36/react.png" alt="react"/> React pro
+# <img width="36" height="36" src="https://img.icons8.com/office/36/react.png" alt="react"/> React y ReactPro
 
-Curso de Udemy de Fernando Herrera: React Pro
+Cursos de Fernando Herrera: **React** y **React Pro**
 
 ---
 
