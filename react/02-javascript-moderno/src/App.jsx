@@ -22,6 +22,8 @@ function App() {
   // Arrays
   const array1 = [1, 2, 3, 4];
   const array2 = [...array1, 5];
+  // Functions
+  const sayHi = (name = '') => `Hi ${name}`
 
   return (
     <div>
@@ -45,6 +47,10 @@ function App() {
         {array2.map(el => <span key={`elemento-${el}`}> * {el}</span>)}
       </section>
       <hr />
+      <section>
+        <h2>Functions</h2>
+        <p>{sayHi('Euge')}</p>
+      </section>
     </div>
   )
 }
