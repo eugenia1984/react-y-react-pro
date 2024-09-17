@@ -24,6 +24,18 @@ function App() {
   const array2 = [...array1, 5];
   // Functions
   const sayHi = (name = '') => `Hi ${name}`
+  const getActiveUser = (firstName) =>  ({ 
+    uid: '123456',
+    userName: firstName
+  })
+  const activeUser = getActiveUser('Maria') 
+  // Asignación desestructurante
+  const person3 = {
+    name: 'Tony',
+    age: 65,
+    password: 'Ironman'
+  }
+  const { name, age, password } = person3;
 
   return (
     <div>
@@ -50,7 +62,14 @@ function App() {
       <section>
         <h2>Functions</h2>
         <p>{sayHi('Euge')}</p>
+        <p>{activeUser.userName}</p>
       </section>
+      <hr />
+      <section>
+        <h2>Destructuring asigment</h2>
+        <p>{`person3 = { name: ${name}, age: ${age}, password: ${password} }`}</p>
+      </section>
+      <hr />
     </div>
   )
 }
