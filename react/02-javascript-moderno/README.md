@@ -20,3 +20,26 @@ Dentro de `src/bases` se encuentran lso archivos de JavaScript deparados por tem
 En `App.jsx` se van reflejando algunos de los temas,
 
 ---
+
+## Importaciones y exportaciones
+
+En `data/index.js`:
+
+```JavaScript
+export const heroes = [
+  {
+      id: 1,
+      name: 'Batman',
+      owner: 'DC'
+  },
+  {
+      id: 2,
+      name: 'Spiderman',
+      owner: 'Marvel'
+  }
+];
+```
+
+En `App.jsx`voy a importarlo para usarlo: `import { heroes } from './data/heroes'`.
+
+---

@@ -1,3 +1,4 @@
+import { heroes } from './data/heroes'
 import './App.css'
 
 function App() {
@@ -33,9 +34,18 @@ function App() {
   const person3 = {
     name: 'Tony',
     age: 65,
-    password: 'Ironman'
+    password: 'Ironman',
+    latlng: {
+      lat: 12.1234,
+      lng: 13.123
+    }
   }
-  const { name, age, password } = person3;
+  const { name, age, password, latlng: {lat, lng} } = person3;
+
+  const getHeroById = (heroId) => {
+    const {id, name, owner} = heroes.find( hero => hero.id === heroId)
+    return `Hero: ${name}, id: ${id}, owner: ${owner}`
+  }
 
   return (
     <div>
@@ -67,9 +77,12 @@ function App() {
       <hr />
       <section>
         <h2>Destructuring asigment</h2>
-        <p>{`person3 = { name: ${name}, age: ${age}, password: ${password} }`}</p>
+        <code>{`person3 = { name: ${name}, age: ${age}, password: ${password}, lat: ${lat}, lng: ${lng} }`}</code>
       </section>
       <hr />
+      <section>
+        {getHeroById(1)}
+      </section>
     </div>
   )
 }
