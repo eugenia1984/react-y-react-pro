@@ -104,4 +104,31 @@ export default heroes;
 ```
 
 Para importarlo: `import heroes, { owners } from './data/heroes'`
+
+- Otro modo es directamente esportar todo junto por default:
+
+```JavaScript
+const heroes = [
+  {
+      id: 1,
+      name: 'Batman',
+      owner: 'DC'
+  },
+  {
+      id: 2,
+      name: 'Spiderman',
+      owner: 'Marvel'
+  }
+]
+
+const owners = ['DC', 'Marvel'];
+
+export {
+  heroes as default,
+  owners
+}
+```
+
+Para importarlo de nuevo uno por default: `import heroes, { owners } from './data/heroes'`.
+
 ---
