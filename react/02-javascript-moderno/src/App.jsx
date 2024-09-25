@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react'
 import { heroes } from './data/heroes'
 import './App.css'
 
@@ -47,6 +48,21 @@ function App() {
     return `Hero: ${name}, id: ${id}, owner: ${owner}`
   }
 
+  // Fetch API usandola con los estados para mostrar ina imagen
+  const [imgUrl, setImgUrl] = useState('');
+
+  const API_KEY = 'cHjKWJE8DGKCmixK8wqjo1Gsa7Sax0MR';
+  
+  useEffect(() => {
+    fetch(`https://api.giphy.com/v1/gifs/random?api_key=${API_KEY}`)
+    .then( (resp) => resp.json())
+    .then( ({data}) =>  {
+      setImgUrl(data.images.original.url);
+    })
+    .catch(console.warn);
+  }, [])
+  
+
   return (
     <div>
       <section>
@@ -82,6 +98,10 @@ function App() {
       <hr />
       <section>
         {getHeroById(1)}
+      </section>
+      <hr />
+      <section>
+        { imgUrl ? <img src={imgUrl} alt="Random Gif" width={200} /> : <p>Loading</p> }
       </section>
     </div>
   )
