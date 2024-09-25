@@ -51,15 +51,16 @@ function App() {
   // Fetch API usandola con los estados para mostrar ina imagen
   const [imgUrl, setImgUrl] = useState('');
 
-  const API_KEY = 'cHjKWJE8DGKCmixK8wqjo1Gsa7Sax0MR';
+  // const API_KEY = 'cHjKWJE8DGKCmixK8wqjo1Gsa7Sax0MR';
   
   useEffect(() => {
-    fetch(`https://api.giphy.com/v1/gifs/random?api_key=${API_KEY}`)
-    .then( (resp) => resp.json())
-    .then( ({data}) =>  {
-      setImgUrl(data.images.original.url);
-    })
-    .catch(console.warn);
+    // fetch(`https://api.giphy.com/v1/gifs/random?api_key=${API_KEY}`)
+    // .then( (resp) => resp.json())
+    // .then( ({data}) =>  {
+    //  setImgUrl(data.images.original.url);
+    // })
+    // .catch(console.warn);
+    setImgUrl('https://media2.giphy.com/media/VCmqtNvUGRPCRQhqJt/giphy.gif?cid=2d41a557rg148tjm8laiixqmwnykqx1ljnrajnce23layyjh&ep=v1_gifs_random&rid=giphy.gif&ct=g');
   }, [])
   
 
@@ -101,6 +102,7 @@ function App() {
       </section>
       <hr />
       <section>
+        <h2>Fetch API - async/await - try/catch</h2>
         { imgUrl ? <img src={imgUrl} alt="Random Gif" width={200} /> : <p>Loading</p> }
       </section>
     </div>
