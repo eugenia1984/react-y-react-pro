@@ -11,9 +11,15 @@ Cursos de Fernando Herrera: **React** y **React Pro**
 - En [**react**](https://github.com/eugenia1984/react-y-react-pro/tree/main/react) está la práctica de React:
 
 ```
-01-intro-react
-02-javascript-moderno
+01-intro-react -> con el CDN tener una aplicación de React
 ```
+
+```
+02-javascript-moderno -> con las bases necesarias de JavaScript para React
+```
+
+<img src="https://github.com/user-attachments/assets/4d43865b-0433-4ad2-8820-88c6809451a5)" width="200" alt="introduccion a react" />
+
 
 ---
 
