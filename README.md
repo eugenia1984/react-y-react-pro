@@ -18,7 +18,7 @@ Cursos de Fernando Herrera: **React** y **React Pro**
 02-javascript-moderno -> con las bases necesarias de JavaScript para React
 ```
 
-<img src="https://github.com/user-attachments/assets/4d43865b-0433-4ad2-8820-88c6809451a5" width="200" alt="introduccion a react" />
+<img src="https://github.com/user-attachments/assets/4d43865b-0433-4ad2-8820-88c6809451a5" width="400" alt="introduccion a react" />
 
 
 ---
