@@ -104,3 +104,36 @@ const h1Tag = document.createElement('h1', null, 'Hola mundo');
 Primera aplicacion con el CDN de React, ReactDOM y Babel.
 
 - [02-javascript-moderno](https://github.com/eugenia1984/react-y-react-pro/tree/main/react/02-javascript-moderno), para tener la base de JavaScript moderno (ES6).
+
+- 03-primeros-pasos
+
+---
+---
+
+## 03 Primeros pasos
+
+### Temas:
+
+```
+-Nuestra primera aplicación - Hola Mundo
+-Exposiciones sobre los componentes
+-Creación de componentes (Functional Components)
+-Propiedades - Props
+-Impresiones en el HTML
+-PropTypes
+-DefaultProps
+-Introducción general a los Hooks
+-useState
+```
+
+### Componente en React
+
+- Es una pequeña pieza de código encapsulada re-utilizable que puede tener estado o no.
+
+- Se nombran con UpperCamelCase
+
+- Hay un componente principal `TwitterApp`que va a tener rutas con el  `Router`y luego apareceran las Screens `Views`con sus componentes hijos (cada uno responsable de una acción determinada) los que pueden ser reutilizables y presonalizables mediante las **props**.
+
+- Un **componente** es una pequeña pieza de código encapsulada que realiza un trabajo en específico. Puede tener un **state**(como se encuentra la información de un componente en un determinado momento) o no.
+
+---

@@ -6,4 +6,6 @@
 
 ![image](https://github.com/user-attachments/assets/a83022ba-055a-4b99-98e4-702cd6379596)
 
+- **03-primeros-pasos**
+
 ---
