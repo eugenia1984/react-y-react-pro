@@ -164,4 +164,18 @@ Es el canal de comunicación entre el **componente padre** hacia el **componente
 
 Se suelen desestructurar para no tener `props.title` sino usar `title`. Y se le puede asignar un valor por defecto o no
 
+### ProprTypes
+
+Para definir el tipo a la prop.
+
+1. Import: `import PropTypes from 'prop-types';`.
+
+2. Declaro los tipos de props con el `nombre del componente` + `.propsTypes` y en un objeto voy a tener como **key** cada propiedad y en el value puedo encadenar varios tipos, como el ejemplo que aclara que es string y requerida (no es opcional):
+
+```JSX
+FirstComponent.propTypes = {
+  title: PropTypes.string.isRequired
+}
+```
+
 ---

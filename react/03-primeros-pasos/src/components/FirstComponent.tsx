@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 const newMessage =  {
   title: 'Eugenia'
 }
@@ -16,4 +18,8 @@ export const FirstComponent = ( { title } ) => {
       <p>getResult() retorna: {getResult()} </p>
     </div>
   )
+}
+
+FirstComponent.propTypes = {
+  title: PropTypes.string.isRequired
 }

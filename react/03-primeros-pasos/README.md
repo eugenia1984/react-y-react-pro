@@ -26,4 +26,6 @@ La primer aplicación creada con `Vite`, donde se ve:
 
 - npm
 
+- prop-types
+
 ---
