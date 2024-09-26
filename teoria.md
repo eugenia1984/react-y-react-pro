@@ -143,8 +143,15 @@ Cuando hay en el return varios hermanos, se envuelve todo en un fragment.
 Es un agrupados de elementos, ya que solo se regresa **un solo nodo padre**, luego dentro si puede tener multiples hijos.
 
 
-## JSX
+### JSX
 
 Con `{}` se utiliza para mostrar string, numbers, array, pero **no objetos**, los objetos no son validos como ReactChild.
+
+
+### Estilos
+
+Se puede usar todo CSS, modulos de CSS, Less, SASS, librerias como TAilwind o Bootrstap, etc.
+
+En `main.jsx`importo: `import './index.css'`que van a ser los estilos globales, disponibles en toda la aplicación.
 
 ---
