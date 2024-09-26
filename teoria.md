@@ -136,4 +136,15 @@ Primera aplicacion con el CDN de React, ReactDOM y Babel.
 
 - Un **componente** es una pequeña pieza de código encapsulada que realiza un trabajo en específico. Puede tener un **state**(como se encuentra la información de un componente en un determinado momento) o no.
 
+### Fragment `<>`
+
+Cuando hay en el return varios hermanos, se envuelve todo en un fragment.
+
+Es un agrupados de elementos, ya que solo se regresa **un solo nodo padre**, luego dentro si puede tener multiples hijos.
+
+
+## JSX
+
+Con `{}` se utiliza para mostrar string, numbers, array, pero **no objetos**, los objetos no son validos como ReactChild.
+
 ---
