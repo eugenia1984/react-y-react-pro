@@ -178,4 +178,14 @@ FirstComponent.propTypes = {
 }
 ```
 
+
+Se puede agregar un valor por defecto:
+
+```JSX
+FirstComponent.defaultProps = {
+  title: 'No title here'
+}
+```
+En este caso, por mas que el `title`es requerido, como las defaultProps estan al principio del renderizado, va a tomarla de ahi y no va a msotrar error.
+
 ---
