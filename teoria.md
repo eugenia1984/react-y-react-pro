@@ -154,4 +154,14 @@ Se puede usar todo CSS, modulos de CSS, Less, SASS, librerias como TAilwind o Bo
 
 En `main.jsx`importo: `import './index.css'`que van a ser los estilos globales, disponibles en toda la aplicación.
 
+### Props (Properties)
+
+Comunicación entre componentes.
+
+Las props se reciben, son un **objeto**.
+
+Es el canal de comunicación entre el **componente padre** hacia el **componente hijo**.
+
+Se suelen desestructurar para no tener `props.title` sino usar `title`. Y se le puede asignar un valor por defecto o no
+
 ---
