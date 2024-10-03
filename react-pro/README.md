@@ -2,6 +2,26 @@
 
 La segunda parte del curso de **React** de **Fernando Herrera**: **React-Pro**
 
+## ¿Qué verás?
+
+- `react-pro/bases`: las bases de React con TypeScript: cómo tipar las props con `type`, hooks: useState, useEffect.
+
+---
+
+## Tecnologías:
+
+- HYML5
+
+- CSS3
+
+- TypeScript
+
+- React
+
+- Vite
+
+- gsap
+
 ---
 
 ## Comandos:
