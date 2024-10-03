@@ -17,7 +17,7 @@ html, body {
 
 .counter-btn {
   color: var(--text-color-dark);
-  margin: 0px 12px;
+  margin: 4px 12px;
   font-weight: 900;
   padding: 8px 12px;
   border-radius: 7px;
@@ -31,4 +31,8 @@ html, body {
 .counter-btn:hover {
   background-color: var(--primary-color);
   color: var(--text-color-light);
+}
+
+#counter-gsap {
+  margin-left: 12px;
 }

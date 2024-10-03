@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { CounterState } from '../types/counter-state-type';
+import { CounterStateType } from '../types/counter-state-type';
 
 type Props = {
   initialValue?: number
@@ -7,15 +7,15 @@ type Props = {
 
 export const CounterBy = ({initialValue = 5}: Props) => {
   
-  const [counterState, setCounterState] = useState<CounterState>({
+  const [counterState, setCounterState] = useState<CounterStateType>({
     value: initialValue,
     clicks: 0
   });
 
   const handleClick = (num: number) => { 
-    setCounterState(prev => ({
-      value: prev.value + num,
-      clicks: prev.clicks + 1
+    setCounterState(({ value, clicks}) => ({
+      value: value + num,
+      clicks: clicks + 1
     }));
   }
 

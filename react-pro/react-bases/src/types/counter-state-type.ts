@@ -1,4 +1,4 @@
-export type CounterState = {
+export type CounterStateType = {
   value: number
   clicks: number
 }
