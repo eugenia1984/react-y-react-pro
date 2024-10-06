@@ -21,7 +21,7 @@ Cursos de Fernando Herrera: **React** y **React Pro**
 
 - En [**react-pro**](https://github.com/eugenia1984/react-y-react-pro/tree/main/react-pro) está la práctica de React-Pro: 
 
-`react-pro/bases`: las bases de React con TypeScript: cómo tipar las props con `type`, hooks: useState, useEffect.
+`react-pro/bases`: las bases de React con TypeScript: cómo tipar las props con `type`, hooks: useState, useEffect, useLayoutEffect, useRef.
 
 ---
 
