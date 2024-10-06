@@ -6,7 +6,7 @@ Las bases de React con TypeScript...
 
 ...cómo tipar las props con `type`?
 
-...hooks: useState, useEffect.
+...hooks: useState, useEffect, useRef
 
 ---
 
