@@ -4,19 +4,21 @@ La segunda parte del curso de **React** de **Fernando Herrera**: **React-Pro**
 
 ## ¿Qué verás?
 
-- `react-pro/bases`: las bases de React con TypeScript: cómo tipar las props con `type`, hooks: useState, useEffect, useLayoutEffect, useRef
+- `react-pro/bases`: las bases de React con TypeScript: cómo tipar las props con `type`, hooks: useState, useEffect, useLayoutEffect, useRef y useReducer.
+
+`react-pro/react-app`: un mini proyecto de React con React Router para tener como base de los proyectos.
 
 ---
 
 ## Tecnologías:
 
-- HYML5
+- HTML5
 
 - CSS3
 
 - TypeScript
 
-- React
+- React, ReactDOm, React Router
 
 - Vite
 
@@ -35,6 +37,6 @@ Como se utilizó Vite para crear los proyectos:
 `npm run dev` -> para correrlo en modo desarrollo
 
 
-`npm create vite@latest react-bases -- --template react-t` -> para crear un proyecto, utilizando un template con **React** y **TypeScript**, en este caso se creo `react-bases`, con el mismo formato se puede nombrar otro proyecto.
+`npm create vite@latest react-bases -- --template react-ts` -> para crear un proyecto, utilizando un template con **React** y **TypeScript**, en este caso se creo `react-bases`, con el mismo formato se puede nombrar otro proyecto.
 
 ---

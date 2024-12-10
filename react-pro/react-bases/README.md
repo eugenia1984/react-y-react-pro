@@ -12,13 +12,13 @@ Las bases de React con TypeScript...
 
 ## Tecnologías:
 
-- HYML5
+- HTML5
 
 - CSS3
 
 - TypeScript
 
-- React
+- React, ReactDOM
 
 - Vite
 
