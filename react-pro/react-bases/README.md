@@ -25,3 +25,27 @@ Las bases de React con TypeScript...
 - gsap
 
 ---
+
+## Estructura
+
+```
+> node_modules
+> public
+> src
+    > assets
+    > bases
+  > counter-reducer
+  > hooks
+  > types
+  App.tsx
+  index.css
+  main.tsx
+.gitignore
+eslint.config.js
+index.html
+package.json
+package-lock.json
+README.md
+tsconfig.json
+vite.config.ts
+```
