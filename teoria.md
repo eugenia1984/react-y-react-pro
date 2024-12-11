@@ -189,3 +189,10 @@ FirstComponent.defaultProps = {
 En este caso, por mas que el `title`es requerido, como las defaultProps estan al principio del renderizado, va a tomarla de ahi y no va a msotrar error.
 
 ---
+
+## React Ruter DOm (versión 5 y versión 6)
+
+
+- Actualmente ya está la **Versión 7** de React Router DOM.
+
+---
