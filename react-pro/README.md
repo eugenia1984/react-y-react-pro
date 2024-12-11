@@ -8,6 +8,8 @@ La segunda parte del curso de **React** de **Fernando Herrera**: **React-Pro**
 
 `react-pro/react-app`: un mini proyecto de React con React Router para tener como base de los proyectos.
 
+- Lazy load a cada componente y por modulo
+
 ---
 
 ## Tecnologías:
@@ -18,7 +20,7 @@ La segunda parte del curso de **React** de **Fernando Herrera**: **React-Pro**
 
 - TypeScript
 
-- React, ReactDOm, React Router
+- React, ReactDOm, React Router, Lazy Load
 
 - Vite
 
