@@ -6,24 +6,7 @@ Cursos de Fernando Herrera: **React** y **React Pro**
 
 # ¿Qué hay?
 
-- En [**teoría**](https://github.com/eugenia1984/react-y-react-pro/blob/main/teoria.md) hay anotaciones sobre la teoria vista
-
-- En [**react**](https://github.com/eugenia1984/react-y-react-pro/tree/main/react) está la práctica de React:
-
-`01-intro-react` -> con el CDN tener una aplicación de React
-
-`02-javascript-moderno` -> con las bases necesarias de JavaScript para React
-
-<img src="https://github.com/user-attachments/assets/4d43865b-0433-4ad2-8820-88c6809451a5" width="400" alt="introduccion a react" />
-
-`03-primeros-pasos`
-
-
-- En [**react-pro**](https://github.com/eugenia1984/react-y-react-pro/tree/main/react-pro) está la práctica de React-Pro: 
-
-`react-pro/bases`: las bases de React con TypeScript: cómo tipar las props con `type`, hooks: useState, useEffect, useLayoutEffect, useRef y useReducer.
-
-`react-pro/react-app`: un mini proyecto de React con React Router para tener como base de los proyectos.
+- En [**theory**](https://github.com/eugenia1984/react-y-react-pro/blob/main/theory.md) hay anotaciones de cosas puntuales de React
 
 ---
 
@@ -88,6 +71,6 @@ npm run dev
 
 ## Notes
 
-I appreciate your interest in this repository ⌨️ with ❤️ by [María Eugenia Costa](https://github.com/eugenia1984) 😊 and follow me on [LinkedIn - maria-eugenia-costa](https://www.linkedin.com/in/maria-eugenia-costa/)
+Aprecio tu interés en este repositorio ⌨️ con ❤️  [María Eugenia Costa](https://github.com/eugenia1984). 😊 Me puedes seguir en LinkedIn, como:  [maria-eugenia-costa](https://www.linkedin.com/in/maria-eugenia-costa/)
 
 ---
