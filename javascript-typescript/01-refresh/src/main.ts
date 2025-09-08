@@ -4,7 +4,9 @@ import "./style.css";
 // import "./basics/02-template-string";
 // import "./basics/03-object-literal";
 // import "./basics/04-arrays";
-import "./basics/05-functions";
+// import "./basics/05-functions";
+// import "./basics/06-obj-destructuring";
+import "./basics/07-array-destructuring";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   <div>
