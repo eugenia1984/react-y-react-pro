@@ -11,4 +11,8 @@ const myArray2 = [...myArray];
 myArray2.push(10);
 
 console.log("myArray: ",myArray);
-console.log("myArray2: ", myArray2)
+console.log("myArray2: ", myArray2);
+
+// Para definir el tipo de dato de un array con más de un tipo
+const myArrayVary : (number | string) []= [1, '2'];
+console.log("myArrayVary - ", myArrayVary);
