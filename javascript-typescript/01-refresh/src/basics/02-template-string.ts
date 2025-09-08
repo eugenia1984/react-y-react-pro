@@ -1,3 +1,4 @@
+/* Template string */
 const firstName = "María Eugenia";
 const lastName = `D'Atri`;
 
