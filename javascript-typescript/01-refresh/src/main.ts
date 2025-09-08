@@ -7,7 +7,10 @@ import "./style.css";
 // import "./basics/05-functions";
 // import "./basics/06-obj-destructuring";
 // import "./basics/07-array-destructuring";
-import "./basics/08-imp-exp";
+// import "./basics/08-imp-exp";
+// import "./basics/09-promises";
+// import "./basics/10-fetch-api";
+
 // import { getHeroesByOwner } from "./basics/08-imp-exp";
 // import { Owner } from "./basics/data/heroes";
 
