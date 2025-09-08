@@ -40,7 +40,7 @@ const spiderMan2 = structuredClone(ironMan);
 spiderMan2.firstName = "Peter";
 spiderMan2.lastName = "Parker";
 spiderMan2.age = 32;
-spiderMan2.address.city = "San Jose";
+// spiderMan2.address.city = "San Jose";
 
 console.log(
   "ironMan: ",
