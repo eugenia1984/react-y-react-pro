@@ -36,12 +36,6 @@ Cursos de Fernando Herrera: **React** y **React Pro**
 
 ---
 
-## Para reforzar React + TypeScript
-
-[Se puede ver en este link](https://www.youtube.com/playlist?list=PLCKuOXG0bPi26-eawizqyLOgM7j66H_4M)
-
----
-
 ## Para crear proyectos de React con Vite
 
 | npm | pnpm | yarn |
