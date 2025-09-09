@@ -10,6 +10,7 @@ import "./style.css";
 // import "./basics/08-imp-exp";
 // import "./basics/09-promises";
 // import "./basics/10-fetch-api";
+import "./basics/11-async-await";
 
 // import { getHeroesByOwner } from "./basics/08-imp-exp";
 // import { Owner } from "./basics/data/heroes";
