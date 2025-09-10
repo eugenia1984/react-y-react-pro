@@ -14,6 +14,16 @@ Cursos de Fernando Herrera: **React** y **React Pro**
 
 - **testing**: Vitest, Vitest UI, índice de cobertura, describe y Test, espías, mock, mock sobre componentes, depuración en consola, snapshots, esperar argumentos específicos en funciones, integración con Testing Library
 
+-**pruebas unitarias**: pruebas atómicas simples. Se recomienda no tener dependencias de otros componentes. Debe de ser especializada en al pieza que estamos probando.
+
+-**pruebas de integración**: ¿Cómo funcionan elementos en conjunto? No deben ser mayores a las unitarias.
+
+-**E2E**: un flujo aislado. Objetivo específico. Pruebas de cosas improbables
+
+**Características de las pruebas**: fáciles de escribir, fáciles de leer, rápidas y flexibles
+
+**Triple A**: 30% arrange (arreglar: importaciones e incializaciones), 50% act (actuar: aplicar estímulos, llamar métodos, simular clicks ), 20% assert (afirmar: ¿que debe haber sucedido?)
+
 ---
 
 # <img width="36" height="36" src="https://img.icons8.com/officel/16/command-line.png" alt="command-line"/> Tecnologías:
