@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 const mySectionStyle = {
   display: 'flex',
   alignItems: 'center',
@@ -14,13 +16,23 @@ interface ItemCounterProps {
   quantity?: number;
 }
 
-export const ItemCounter = ({ name, quantity }: ItemCounterProps) => {
+export const ItemCounter = ({ name, quantity = 0 }: ItemCounterProps) => {
+  const [count, setCount] = useState(quantity);
+
+  const handleAdd = () => setCount(prev => prev + 1);
+
+  const handleSubtract = () => {
+    if (count === 1) return;
+
+    setCount(prev => prev - 1)
+  };
+
   return (
     <section style={mySectionStyle}>
       <span style={myItemStyle}>{name}</span>
-      <button>+1</button>
-      <span>{quantity ? quantity : 0}</span>
-      <button>-1</button>
+      <button onClick={handleSubtract}>-1</button>
+      <span>{count ? count : 0}</span>
+      <button onClick={handleAdd}> +1 </button>
     </section>
   )
 }
