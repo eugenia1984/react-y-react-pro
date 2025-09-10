@@ -24,6 +24,8 @@ Cursos de Fernando Herrera: **React** y **React Pro**
 
 **Triple A**: 30% arrange (arreglar: importaciones e incializaciones), 50% act (actuar: aplicar estímulos, llamar métodos, simular clicks ), 20% assert (afirmar: ¿que debe haber sucedido?)
 
+**coverage**: 75% e coberturr de: líneas (líneas ejecutadas), ramas (ramas de decision probadas), funciones (funciones/métodos invocados) y condiciones (condiciones evaluadas en ambos sentidos)
+
 ---
 
 # <img width="36" height="36" src="https://img.icons8.com/officel/16/command-line.png" alt="command-line"/> Tecnologías:
