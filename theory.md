@@ -157,4 +157,22 @@ export function Counter() {
 
 -condiciones (condiciones evaluadas en ambos sentidos)
 
+## Vitest
+
+- Similar a Jest, pero creada por la gente de **Vite**.
+
+### Primeros pasos
+
+1. Para instalar como dependencia de desarrollo: `npm install -D vitest`
+
+2. En el `script` del `package.json` agrego los script para luego poder utilizarlo:
+
+```JSON
+"scripts": {
+  "test": "vitest",
+  "test:ui": "vitest --ui",
+  "coverage": "vitest run --coverage"
+}
+```
+
 ---
