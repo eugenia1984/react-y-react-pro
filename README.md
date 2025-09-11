@@ -10,21 +10,7 @@ Cursos de Fernando Herrera: **React** y **React Pro**
 
 - En [**01-javascript-typescript**](https://github.com/eugenia1984/react-y-react-pro/blob/main/jevascript-typescript) hay ejercicios para reforzar temas de JavaScript y TypeScript.
 
-- En [**02-first-steps**](https://github.com/eugenia1984/react-y-react-pro/blob/main/02-first-steps) hay ejercicios de React para ver: componentes, estructura y nomenclatura, hook - useState, CSS condicional, módulos de css, impresiones de variables, props.
-
-- **testing**: Vitest, Vitest UI, índice de cobertura, describe y Test, espías, mock, mock sobre componentes, depuración en consola, snapshots, esperar argumentos específicos en funciones, integración con Testing Library
-
--**pruebas unitarias**: pruebas atómicas simples. Se recomienda no tener dependencias de otros componentes. Debe de ser especializada en al pieza que estamos probando.
-
--**pruebas de integración**: ¿Cómo funcionan elementos en conjunto? No deben ser mayores a las unitarias.
-
--**E2E**: un flujo aislado. Objetivo específico. Pruebas de cosas improbables
-
-**Características de las pruebas**: fáciles de escribir, fáciles de leer, rápidas y flexibles
-
-**Triple A**: 30% arrange (arreglar: importaciones e incializaciones), 50% act (actuar: aplicar estímulos, llamar métodos, simular clicks ), 20% assert (afirmar: ¿que debe haber sucedido?)
-
-**coverage**: 75% e coberturr de: líneas (líneas ejecutadas), ramas (ramas de decision probadas), funciones (funciones/métodos invocados) y condiciones (condiciones evaluadas en ambos sentidos)
+- En [**02-first-steps**](https://github.com/eugenia1984/react-y-react-pro/blob/main/02-first-steps) hay ejercicios de React para ver: componentes, estructura y nomenclatura, hook - useState, CSS condicional, módulos de css, impresiones de variables, props, testing con Vitest (Vitest, Vitest UI, índice de cobertura, describe y Test, espías, mock, mock sobre componentes, depuración en consola, snapshots, esperar argumentos específicos en funciones, integración con Testing Library).
 
 ---
 
@@ -42,13 +28,15 @@ Cursos de Fernando Herrera: **React** y **React Pro**
 
 - <img width="24" height="24" src="https://img.icons8.com/office/24/react.png" alt="react"/> React
 
+- <img width="24" height="24" src="https://img.icons8.com/?size=24&id=dJjTWMogzFzg&format=png&color=000000" alt="Vite" /> Vite, Vitest
+
 - <img width="24" height="24" src="https://img.icons8.com/color/24/nodejs.png" alt="nodejs"/> Nodejs
 
-- Postman
+- <img width="24" height="24" src="https://img.icons8.com/?size=24&id=EPbEfEa7o8CB&format=png&color=000000" alt="Postman"/> Postman
 
 - Mongo Compass
 
-- Git
+- <img  width="24" height="24"  src="https://img.icons8.com/?size=24&id=20906&format=png&color=000000" alt="git"/>Git
 
 ---
 

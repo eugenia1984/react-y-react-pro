@@ -1,6 +1,6 @@
-# Teoría
+# <img width="36" height="36"  src="https://img.icons8.com/?size=36&id=7IASjmQaPyfb&format=png&color=000000" alt="cuaderno de anotaciones"/> Teoría
 
-## ¿Qué problemas resuelve React?
+## <img width="36" height="36"  src="https://img.icons8.com/?size=36&id=wPohyHO_qO1a&format=png&color=000000" alt="React"/>  ¿Qué problemas resuelve React?
 
 Anteriormente las interfaces se construian con JavaScript o jQuery, y se parecían a:
 
@@ -30,7 +30,7 @@ button.addEventListener('click', () => {
 
 - **DOM virtual**: mejora el rendimiento.
 
-## Estructura de un componente
+## <img width="26" height="26"  src="https://img.icons8.com/?size=26&id=wPohyHO_qO1a&format=png&color=000000" alt="React"/>  Estructura de un componente
 
 ```JSX
 import { useState } from React;
@@ -59,7 +59,7 @@ export function Counter() {
 
 -> **ayuda a construir aplicaciones como si fueran bloques de LEGO: compones, reutilizas y actualizas solo lo que cambia**
 
-## ¿Por quñe es tan popular?
+## ¿Por qué es tan popular?
 
 - Curva de aprendizaje más suave
 
@@ -69,7 +69,7 @@ export function Counter() {
 
 - Gran comunidad y soporte en proyectos reales y empresas.
 
-## React es una librería
+## <img width="26" height="26"  src="https://img.icons8.com/?size=26&id=wPohyHO_qO1a&format=png&color=000000" alt="React"/>  React es una librería
 
 - Es una herramienta específica para resolver un problema concreto.
 
@@ -89,7 +89,7 @@ export function Counter() {
 
 -tiene una estructura completa: te da toda la forma "correcta" (y obligatoria) de hacer las cosas
 
-### ¿Qué usar con React?
+### <img width="26" height="26"  src="https://img.icons8.com/?size=26&id=wPohyHO_qO1a&format=png&color=000000" alt="React"/>   ¿Qué usar con React?
 
 - Para crearla...
 
@@ -103,7 +103,7 @@ export function Counter() {
 
 ...para data fetching: `React Query`, `SWR` ó `RTK Query`.
 
-### Beneficios de combinar REact con TypeScript:
+### <img width="26" height="26"  src="https://img.icons8.com/?size=26&id=wPohyHO_qO1a&format=png&color=000000" alt="React"/>   Beneficios de combinar React con TypeScript:
 
 - autocompletado
 
@@ -114,5 +114,47 @@ export function Counter() {
 - escalable en equipos
 
 - tiene mejor intellisense y ayudas del editor
+
+---
+
+## <img width="36" height="36" src="https://img.icons8.com/?size=36&id=dSyJNkceaYP4&format=png&color=000000" alt="test checking list" /> Testing
+
+### Tipos de pruebas
+
+- **pruebas unitarias**: pruebas atómicas simples. Se recomienda no tener dependencias de otros componentes. Debe de ser especializada en al pieza que estamos probando.
+
+- **pruebas de integración**: ¿Cómo funcionan elementos en conjunto? No deben ser mayores a las unitarias.
+
+- **E2E**: un flujo aislado. Objetivo específico. Pruebas de cosas improbables
+
+### Características de las pruebas: 
+
+-fáciles de escribir
+
+-fáciles de leer
+
+-rápidas 
+
+-flexibles
+
+### Triple A: 
+
+- **30% arrange** -> arreglar: importaciones e incializaciones
+
+- **50% act** -> actuar: aplicar estímulos, llamar métodos, simular clicks
+
+- **20% assert** -> afirmar: ¿que debe haber sucedido
+
+### Coverage
+
+75% de cobertura de: 
+
+-líneas (líneas ejecutadas)
+
+-ramas (ramas de decision probadas)
+
+-funciones (funciones/métodos invocados) 
+
+-condiciones (condiciones evaluadas en ambos sentidos)
 
 ---
