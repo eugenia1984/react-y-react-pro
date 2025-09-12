@@ -30,6 +30,8 @@ Cursos de Fernando Herrera: **React** y **React Pro**
 
 - <img width="24" height="24" src="https://img.icons8.com/?size=24&id=dJjTWMogzFzg&format=png&color=000000" alt="Vite" /> Vite, Vitest
 
+- Testing Library
+
 - <img width="24" height="24" src="https://img.icons8.com/color/24/nodejs.png" alt="nodejs"/> Nodejs
 
 - <img width="24" height="24" src="https://img.icons8.com/?size=24&id=EPbEfEa7o8CB&format=png&color=000000" alt="Postman"/> Postman
