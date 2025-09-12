@@ -25,7 +25,7 @@ const myStyles: CSSProperties = {
 export const MyAwesomeApp = () => {
   return (
     <>
-      <h1>{lastName}</h1>
+      <h1 data-testid="first-name-title" >{lastName}</h1>
       <h2>{firstName}</h2>
       <p>{favoriteGames.join(', ')}</p>
       <p>{isActive ? 'Active' : 'Not  active'}</p>
