@@ -8,9 +8,9 @@ Cursos de Fernando Herrera: **React** y **React Pro**
 
 - En [**theory**](https://github.com/eugenia1984/react-y-react-pro/blob/main/theory.md) hay anotaciones de cosas puntuales de React
 
-- En [**01-javascript-typescript**](https://github.com/eugenia1984/react-y-react-pro/blob/main/jevascript-typescript) hay ejercicios para reforzar temas de JavaScript y TypeScript.
+- En [**01-javascript-typescript**](https://github.com/eugenia1984/react-y-react-pro/tree/main/01-refresh) hay ejercicios para reforzar temas de JavaScript y TypeScript.
 
-- En [**02-first-steps**](https://github.com/eugenia1984/react-y-react-pro/blob/main/02-first-steps) hay ejercicios de React para ver: componentes, estructura y nomenclatura, hook - useState, CSS condicional, módulos de css, impresiones de variables, props, testing con Vitest (Vitest, Vitest UI, índice de cobertura, describe y Test, espías, mock, mock sobre componentes, depuración en consola, snapshots, esperar argumentos específicos en funciones, integración con Testing Library).
+- En [**02-first-steps**](https://github.com/eugenia1984/react-y-react-pro/tree/main/02-first-steps) hay ejercicios de React para ver: componentes, estructura y nomenclatura, hook - useState, CSS condicional, módulos de css, impresiones de variables, props, testing con Vitest (Vitest, Vitest UI, índice de cobertura, describe y Test, espías, mock, mock sobre componentes, depuración en consola, snapshots, esperar argumentos específicos en funciones, integración con Testing Library).
 
 ---
 
