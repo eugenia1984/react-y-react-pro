@@ -25,4 +25,10 @@ describe('MyAwesomeApp', () => {
     expect(h1?.innerHTML).toContain('Costa');
     expect(h2?.innerHTML).toContain('Eugenia');
   })
+
+  test('should match snapshot', () =>  {
+    const { container } = render(<MyAwesomeApp />);
+
+    expect(container).toMatchSnapshot();
+  });
 });

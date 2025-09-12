@@ -204,4 +204,7 @@ Otro modo es utilizando el `screen`. Se usa cuando hay eventos y datos que se ac
 
 - `container` vs `screen` -> el `container` se graba con los datos al renderizar el componente, pero luego si hay cambios o actualizaciones con el container no lo veo, para estos casos es necesario el `screen`
 
+- `snapshot` -> es una radiografía del componente renderizado, para verificar que la estructura fisica del componente creado es exactamente igual a la usada previamente. Cuando utilice el `expect(container).toMatchSnapshot();` se me va a crer la carpeta `_snapshots_`, si a futuro hay cambios me va a avisar que cambio y dar la posibilidad si quiero de actualizar el archivo con el cambio o no.
+
+- **Eventos** cuando quiero disparar un evento utilizo `fireEvent` con el evento, por ejemplo: `click`.
 ---
