@@ -207,4 +207,11 @@ Otro modo es utilizando el `screen`. Se usa cuando hay eventos y datos que se ac
 - `snapshot` -> es una radiografía del componente renderizado, para verificar que la estructura fisica del componente creado es exactamente igual a la usada previamente. Cuando utilice el `expect(container).toMatchSnapshot();` se me va a crer la carpeta `_snapshots_`, si a futuro hay cambios me va a avisar que cambio y dar la posibilidad si quiero de actualizar el archivo con el cambio o no.
 
 - **Eventos** cuando quiero disparar un evento utilizo `fireEvent` con el evento, por ejemplo: `click`.
+
+-**mocks**: con `vi.mock`me puedo ir creando los mocks encesarios.
+
+-**ciclo de vida**: antes de los `test('', () => {})` puedo tener un `afterEach(() => {})`, que se ejecutara luego de cada `test`, asi por ejemplo hago una limpieza de los mocks.
+
+5. Para ver el % de coverage, correr: `npm run coverage` y voy a tener una nueva arpeta en mi proyecto: `coverage`, dentro tengo un `index.html` y asi puedo ver en el navegador lo mismo que veo como una tabla por consola.
+
 ---
