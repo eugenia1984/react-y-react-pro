@@ -14,6 +14,8 @@ Cursos de Fernando Herrera: **React** y **React Pro**
 
 - En hay ejercicios de React para ver: Peticiones HTTP, debounce, manejo de estado, comunicación entre componentes, useEffect, variables de entorno y fuentes personalizadas.
 
+- En [**03-gifs-app**](https://github.com/eugenia1984/react-y-react-pro/tree/main/03-gifs-app) se crea una app en React para ver: peticiones HTTP, debounce, manejo de estado, comunicación entre componentes, useEffect, variables de entorno y fuentes personalizadas
+
 ---
 
 # <img width="36" height="36" src="https://img.icons8.com/officel/16/command-line.png" alt="command-line"/> Tecnologías:
