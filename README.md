@@ -12,8 +12,6 @@ Cursos de Fernando Herrera: **React** y **React Pro**
 
 - En [**02-first-steps**](https://github.com/eugenia1984/react-y-react-pro/tree/main/02-first-steps) hay ejercicios de React para ver: componentes, estructura y nomenclatura, hook - useState, CSS condicional, módulos de css, impresiones de variables, props, testing con Vitest (Vitest, Vitest UI, índice de cobertura, describe y Test, espías, mock, mock sobre componentes, depuración en consola, snapshots, esperar argumentos específicos en funciones, integración con Testing Library).
 
-- En hay ejercicios de React para ver: Peticiones HTTP, debounce, manejo de estado, comunicación entre componentes, useEffect, variables de entorno y fuentes personalizadas.
-
 - En [**03-gifs-app**](https://github.com/eugenia1984/react-y-react-pro/tree/main/03-gifs-app) se crea una app en React para ver: peticiones HTTP, debounce, manejo de estado, comunicación entre componentes, useEffect, variables de entorno y fuentes personalizadas
 
 ---
