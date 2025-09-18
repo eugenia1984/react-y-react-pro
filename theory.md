@@ -107,13 +107,33 @@ export function Counter() {
 
 - autocompletado
 
-- detecciçon de errores en tiempo de desarrollo
+- detección de errores en tiempo de desarrollo
 
 - mejor documentación del código (solo leyendo los tipos)
 
 - escalable en equipos
 
 - tiene mejor intellisense y ayudas del editor
+
+---
+
+## <img width="36" height="36"  src="https://img.icons8.com/?size=36&id=wPohyHO_qO1a&format=png&color=000000" alt="React"/>  HOOKS
+
+### Reglas de los hooks...
+
+...siempre llama a los hoks en el mismo orden
+
+...solo usa hooks en componentes funcionales o custom hooks
+
+...los hooks deben comenzar con **use**
+
+### Los hook básicos que hay en toda aplicación:
+
+- `useState`: maneja un estado local en el componente.
+
+- `useEffect`: ejecuta efectos secundarios y limpieza al desmontar el componente.
+
+- `useContext`: accede al valor alojado en el contexto (árbol de componentes)
 
 ---
 
