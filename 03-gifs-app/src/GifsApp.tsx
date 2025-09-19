@@ -13,7 +13,17 @@ export const GifsApp = () => {
 
   const handleTermClicked = (term: string) => console.log(term);
 
-  const handleSearch = (query: string) => console.log({ query });
+  const handleSearch = (query: string) => {
+    // delete empty spaces
+    query = query.trim().toLowerCase();
+
+    if (query.length === 0) return;
+
+    // avoid duplicated
+    if (previousTerms.includes(query)) return;
+
+    setPreviousTerms([query, ...previousTerms].splice(0,8));
+  }
 
   return (
     <>
