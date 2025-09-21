@@ -17,3 +17,15 @@ Se crea una app en React para ver:
 - fuentes personalizadas
 
 ---
+
+## Tecnologías
+
+- JSX, TypeScript
+
+- React
+
+- Vite
+
+- Axios
+
+---

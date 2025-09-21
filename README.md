@@ -38,6 +38,8 @@ Cursos de Fernando Herrera: **React** y **React Pro**
 
 - <img width="24" height="24" src="https://img.icons8.com/?size=24&id=EPbEfEa7o8CB&format=png&color=000000" alt="Postman"/> Postman
 
+- Axios
+
 - Mongo Compass
 
 - <img  width="24" height="24"  src="https://img.icons8.com/?size=24&id=20906&format=png&color=000000" alt="git"/>Git

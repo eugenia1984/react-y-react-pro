@@ -6,14 +6,16 @@ import { CustomHeader } from "./shared/components/CustomHeader";
 import { SearchBar } from "./shared/components/SearchBar";
 import { PreviousSearches } from "./gifs/components/PreviousSearches";
 import { GifsList } from "./gifs/components/GifsList";
-
+import { getGifsByQuery } from "./gifs/actions/get-gifs-by-query.actions";
+import { Gif } from "./gifs/interfaces/gif.interface";
 
 export const GifsApp = () => {
-  const [previousTerms, setPreviousTerms] = useState(['film 1', 'film 2']);
+  const [gifs, setGifs] = useState<Gif[]>([]);
+  const [previousTerms, setPreviousTerms] = useState<string[]>([]);
 
-  const handleTermClicked = (term: string) => console.log(term);
+  const handleTermClicked = (term: string) => console.log({term});
 
-  const handleSearch = (query: string) => {
+  const handleSearch = async (query: string) => {
     // delete empty spaces
     query = query.trim().toLowerCase();
 
@@ -22,7 +24,12 @@ export const GifsApp = () => {
     // avoid duplicated
     if (previousTerms.includes(query)) return;
 
+    // Have only the last 7 searches
     setPreviousTerms([query, ...previousTerms].splice(0,8));
+
+    // Use Giphy APi to get the gifs
+    const gifs = await getGifsByQuery(query);
+    setGifs(gifs);
   }
 
   return (
@@ -30,7 +37,7 @@ export const GifsApp = () => {
       <CustomHeader title="Gifs searcher" description="Discover and share the perfect GIF" />
       <SearchBar placeholder="Search gifs" onQuery={handleSearch} />
       <PreviousSearches searches={previousTerms} onLabelClicked={handleTermClicked} />
-      <GifsList gifs={mockGifs} />
+      <GifsList gifs={gifs} />
     </>
   )
 }
