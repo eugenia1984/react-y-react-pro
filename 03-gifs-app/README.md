@@ -18,6 +18,16 @@ Se crea una app en React en la cual se pueden buscar meme.
 
 - fuentes personalizadas
 
+- Custom Hooks - Hooks personalizados
+
+- DevTools de React
+
+- useRef - Hook propio de React
+
+- Generar versión de producción
+
+- Separación de responsabilidades
+
 ---
 
 ## <img width="26" height="26" src="https://img.icons8.com/officel/16/command-line.png" alt="command-line"/> Tecnologías
