@@ -1,7 +1,4 @@
 import { useState } from "react";
-
-import { mockGifs } from "./mock-data/gifs.mock";
-
 import { CustomHeader } from "./shared/components/CustomHeader";
 import { SearchBar } from "./shared/components/SearchBar";
 import { PreviousSearches } from "./gifs/components/PreviousSearches";
