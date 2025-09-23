@@ -42,7 +42,7 @@ En este proyecto [**02-first-steps**](https://github.com/eugenia1984/react-y-rea
 
 ---
 
-## ## <img width="26" height="26" src="https://img.icons8.com/officel/16/command-line.png" alt="command-line"/>  Tips aprendidos
+## <img width="26" height="26" src="https://img.icons8.com/officel/16/command-line.png" alt="command-line"/>  Tips aprendidos
 
 ### React
 
