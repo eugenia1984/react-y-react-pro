@@ -9,6 +9,9 @@ export const getGifsByQuery = async (query: string): Promise<Gif[]> => {
       params: {
         q: query,
         limit: 10,
+        offset:0,
+        rating: 'g',
+        bundle: 'messaging_non_clips'
       },
     }
   );

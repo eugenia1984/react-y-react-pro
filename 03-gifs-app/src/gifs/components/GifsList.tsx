@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { Gif } from "../../mock-data/gifs.mock";
+import { Gif } from "../interfaces/gif.interface";
 
 interface GifsListProps {
   gifs: Gif[];
