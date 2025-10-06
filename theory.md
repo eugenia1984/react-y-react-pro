@@ -135,6 +135,23 @@ export function Counter() {
 
 - `useContext`: accede al valor alojado en el contexto (árbol de componentes)
 
+### Hooks adicionales
+
+Hooks que ofrecen comportamientos adicionales
+
+- `useReducer`
+: alternativa al useState para lógica compleja
+
+- `useRef`: referencias motables que no causan re-render
+
+- `useMemo`: memoriza valores para evitar volverlos a calcular entre re-renders
+
+- `useCallBack`: memoriza funciones para evitar recreaciones innecesarias.
+
+- `useLeyourEffect`: similar a useEffect, pero sincronizando justo después del render.
+
+- `useImperativeHandle`: expone métodos desde un componente con forwardRef.
+
 ---
 
 ## <img width="36" height="36" src="https://img.icons8.com/?size=36&id=dSyJNkceaYP4&format=png&color=000000" alt="test checking list" /> Testing
@@ -233,5 +250,15 @@ Otro modo es utilizando el `screen`. Se usa cuando hay eventos y datos que se ac
 -**ciclo de vida**: antes de los `test('', () => {})` puedo tener un `afterEach(() => {})`, que se ejecutara luego de cada `test`, asi por ejemplo hago una limpieza de los mocks.
 
 5. Para ver el % de coverage, correr: `npm run coverage` y voy a tener una nueva arpeta en mi proyecto: `coverage`, dentro tengo un `index.html` y asi puedo ver en el navegador lo mismo que veo como una tabla por consola.
+
+---
+
+## GENERAR VERSION DE PRODUCCION
+
+- `npm run build`: crea un nuevo directorio `dist`, el que se utiliza para subir a producción.
+
+Se puede utilizar [https://www.npmjs.com/package/http-server](https://www.npmjs.com/package/http-server) para crear un servidor local.
+
+Instalarlo con `--global` y abrir terminal como `administrador` en windows, o con `super user` para Linux o Mac.
 
 ---
