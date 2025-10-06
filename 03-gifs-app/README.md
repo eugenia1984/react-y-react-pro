@@ -28,6 +28,7 @@ Se crea una app en React en la cual se pueden buscar meme.
 
 - Separación de responsabilidades
 
+- Testing: Pruebas sobre hooks / Pruebas sobre custom hooks / Pruebas con tareas asíncronas / Pruebas con tareas que involucran timeouts / Pruebas sobre axios / Integrar testing en el proceso de construcción / Espías / Sobre escribir funciones para el testing / Manejo de excepciones
 ---
 
 ## <img width="26" height="26" src="https://img.icons8.com/officel/16/command-line.png" alt="command-line"/> Tecnologías
