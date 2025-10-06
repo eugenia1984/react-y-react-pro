@@ -100,3 +100,43 @@ Tener en cuenta que el archivo `.env` está excluido en el `.gitignore` por lo q
 
 **Aumenta su reutilización, permitiendo que se use en diferentes contextos con distintas configuraciones.** -> La parametrización a través de props es un pilar de React. Permite que un mismo componente sea flexible y se adapte a diferentes necesidades, lo cual es fundamental para construir aplicaciones escalables y mantenibles.
 
+11. ¿Cuál es el propósito principal de crear un "Custom Hook" en React (por ejemplo, useGifs)?
+
+El objetivo fundamental de los custom hooks es encapsular lógica que utiliza otros hooks (como useState o useEffect) para que pueda ser extraída de un componente y reutilizada fácilmente en otros, evitando la duplicación de código.
+
+12. Al inspeccionar un componente con las React DevTools, ¿por qué es fundamental entender que los hooks son "posicionales"?
+
+Esta es una de las reglas de oro de los hooks. Su orden de ejecución debe ser consistente en cada renderizado para que React pueda asociar correctamente el estado con la llamada del hook correspondiente.
+
+13. ¿Por qué una variable de JavaScript normal (let o const) declarada dentro de un custom hook pierde su valor entre renderizados?
+
+El cuerpo de un componente o de un custom hook es una función que se ejecuta en cada render. Solo los valores gestionados por hooks específicos como useState o useRef tienen la capacidad de persistir a través de estas ejecuciones.
+
+14. ¿Cuál es la diferencia clave entre useState y useRef al momento de actualizar su valor?
+
+Esta es la distinción más importante. useState está hecho para datos que, al cambiar, deben actualizar la UI. useRef es para mantener datos que deben persistir sin provocar una nueva renderización.
+
+15. Al generar la versión de producción con npm run build, ¿por qué el proceso suele ser más estricto que el servidor de desarrollo?
+
+16. ¿Por qué generalmente no se puede abrir el archivo index.html de la carpeta dist (producción) directamente en el navegador?
+
+El build de producción hace referencia a sus recursos (JavaScript, CSS) con rutas absolutas desde la raíz (ej. /assets/index.js). Un servidor web entiende esta estructura, pero el sistema de archivos local (file://) no.
+
+17. Si dos componentes diferentes en tu aplicación utilizan el mismo custom hook (ej. useGifs), ¿comparten el mismo estado entre ellos?
+
+Esta es una característica clave del diseño de los hooks. Cada vez que se llama a useGifs(), se crea un nuevo "universo" para su estado y lógica. Para compartir estado, se necesitan otras estrategias como levantarlo a un componente padre común.
+
+18. ¿Cuál de las siguientes afirmaciones sobre el hook useRef es correcta?
+
+Su propósito es precisamente tener una "caja" mutable que sobrevevive a los renderizados para almacenar información (como un ID de un temporizador, un objeto de caché o una referencia a un elemento del DOM) sin afectar el ciclo de renderizado.
+
+19. ¿Cuál es la convención de nomenclatura obligatoria para crear un Custom Hook en React?
+
+Es una regla impuesta por React y su linter. Permite a React verificar que se están siguiendo las reglas de los hooks (por ejemplo, que no se llamen condicionalmente). Si no empieza con use, React lo tratará como una función normal.
+
+20. ¿Qué funcionalidad clave de las React DevTools permite probar diferentes escenarios en un componente sin tener que modificar el código fuente?
+
+ Esta es una de las características más potentes para la depuración. Permite simular diferentes estados o valores de props para ver cómo reacciona el componente, acelerando el proceso de desarrollo y solución de errores.
+ 
+
+
