@@ -12,7 +12,7 @@ Cursos de Fernando Herrera: **React** y **React Pro**
 
 - En [**02-first-steps**](https://github.com/eugenia1984/react-y-react-pro/tree/main/02-first-steps) hay ejercicios de React para ver: componentes, estructura y nomenclatura, hook - useState, CSS condicional, módulos de css, impresiones de variables, props, testing con Vitest (Vitest, Vitest UI, índice de cobertura, describe y Test, espías, mock, mock sobre componentes, depuración en consola, snapshots, esperar argumentos específicos en funciones, integración con Testing Library).
 
-- En [**03-gifs-app**](https://github.com/eugenia1984/react-y-react-pro/tree/main/03-gifs-app) se crea una app en React para ver: peticiones HTTP, debounce, manejo de estado, comunicación entre componentes, useEffect, variables de entorno, fuentes personalizadas, custom Hooks - Hooks personalizados, DevTools de React, useRef - Hook propio de React, generar versión de producción y separación de responsabilidades
+- En [**03-gifs-app**](https://github.com/eugenia1984/react-y-react-pro/tree/main/03-gifs-app) se crea una app en React para ver: peticiones HTTP, debounce, manejo de estado, comunicación entre componentes, useEffect, variables de entorno, fuentes personalizadas, custom Hooks - Hooks personalizados, DevTools de React, useRef - Hook propio de React, generar versión de producción y separación de responsabilidades. Testing: Pruebas sobre hooks / Pruebas sobre custom hooks / Pruebas con tareas asíncronas / Pruebas con tareas que involucran timeouts / Pruebas sobre axios / Integrar testing en el proceso de construcción / Espías / Sobre escribir funciones para el testing / Manejo de excepciones.
 
 ---
 

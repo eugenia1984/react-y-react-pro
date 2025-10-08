@@ -28,6 +28,7 @@ Se crea una app en React en la cual se pueden buscar meme.
 
 - Separación de responsabilidades
 
+- Testing: Pruebas sobre hooks / Pruebas sobre custom hooks / Pruebas con tareas asíncronas / Pruebas con tareas que involucran timeouts / Pruebas sobre axios / Integrar testing en el proceso de construcción / Espías / Sobre escribir funciones para el testing / Manejo de excepciones
 ---
 
 ## <img width="26" height="26" src="https://img.icons8.com/officel/16/command-line.png" alt="command-line"/> Tecnologías
@@ -39,6 +40,12 @@ Se crea una app en React en la cual se pueden buscar meme.
 - <img width="24" height="24" src="https://img.icons8.com/office/24/react.png" alt="react"/> React
 
 - <img width="24" height="24" src="https://img.icons8.com/?size=24&id=dJjTWMogzFzg&format=png&color=000000" alt="Vite" /> Vite
+
+- Vitest y React Testing Library (para los test) -> se pueden instalar por comando con: `npm install --save-dev @testing-library/react @testing-library/dom vitest jsdom`. 
+
+->Crear los script en `package.json`, asi con `npm run test` corremos los test.
+
+->Configurar `vite.config.ts`.
 
 - Axios
 
