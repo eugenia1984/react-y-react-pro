@@ -45,13 +45,34 @@ Se crea una app en React en la cual se pueden buscar meme.
 
 -> se pueden instalar por comando con: `npm install --save-dev @testing-library/react @testing-library/dom vitest jsdom`. 
 
-->Crear los script en `package.json`, asi con `npm run test` corremos los test.
+-> Crear los script en `package.json`, asi con `npm run test` corremos los test.
 
-->Configurar `vite.config.ts`.
+-> Configurar `vite.config.ts`.
 
 - Axios
 
 - Axios-Mock-Adapter
+
+---
+
+## Porcentaje de cobertura
+
+1. Correr: `npm run coverage`
+
+2. `? Do you want to install @vitest/covegare-v8? > (y/N)` e ingresamos `y`, para instalarlo.
+
+
+3. `vitest run --coverage` para correrlo, pero en nuestro `package.json` teniemoas ya un script, asi que corremos: `npm run coverage`
+
+## Que el testing forme parte del proceso de construcción (CI/CD)
+
+1. En el `script` del `package.json` agrego: `"test:only": "vitest run",`
+
+2. Con: `npm run test only` hace le proceso
+
+3. Lo agrego en el `script` en la parte del `bluid`:  `    "build": "npm run test:only && tsc -b && vite build",`
+
+4. Hay que tener cuidado, porque si ahora un test falla, no se va a hacer el build.
 
 ---
 
@@ -147,7 +168,45 @@ Es una regla impuesta por React y su linter. Permite a React verificar que se es
 
 20. ¿Qué funcionalidad clave de las React DevTools permite probar diferentes escenarios en un componente sin tener que modificar el código fuente?
 
- Esta es una de las características más potentes para la depuración. Permite simular diferentes estados o valores de props para ver cómo reacciona el componente, acelerando el proceso de desarrollo y solución de errores.
+Esta es una de las características más potentes para la depuración. Permite simular diferentes estados o valores de props para ver cómo reacciona el componente, acelerando el proceso de desarrollo y solución de errores.
  
 
+21. ¿Cuál es el principal beneficio de integrar la ejecución de pruebas automáticas directamente en el script de build de una aplicación?
 
+**Para actuar como un "guardián" que impide la construcción y despliegue de la aplicación si alguna prueba falla, asegurando la calidad del código.** Esta es la práctica estándar en Integración Continua (CI/CD). Si las pruebas fallan, el proceso de construcción se detiene, evitando que se publique una versión con errores.
+
+22. Al probar un componente que utiliza un custom hook complejo, ¿cuál es la principal ventaja de crear una simulación (mock) del hook en lugar de usar su implementación real?
+
+**Permite aislar el componente y controlar la salida del hook, facilitando la prueba de cómo el componente reacciona a diferentes estados o errores sin depender de la lógica interna del hook.** Hacer un mock del hook `(vi.mock)` permite simular diferentes escenarios (ej. un estado de carga, un error, datos específicos) y probar la reacción del componente de forma aislada y predecible.
+
+23. ¿Por qué es fundamental envolver en la función `act()` las acciones que provocan una actualización de estado en un componente de React durante una prueba?
+
+**Para asegurarse de que la prueba espere a que React procese todas las actualizaciones de estado y del DOM antes de realizar las aserciones sobre el resultado final.** React actualiza el DOM de forma asíncrona. act() asegura que las aserciones se ejecuten solo después de que el componente se haya re-renderizado completamente, evitando resultados incorrectos o inconsistentes.
+
+24. Al probar una funcionalidad con un retardo de tiempo (ej. un debounce con setTimeout), ¿por qué se prefiere usar waitFor de Testing Library en lugar de una espera con tiempo fijo (ej. new Promise con un setTimeout)?
+
+**Porque waitFor desvincula la prueba de la duración exacta del setTimeout, haciendo la prueba más robusta y menos frágil ante cambios en el tiempo del debounce.** Si el tiempo del debounce cambia de 700ms a 800ms, una prueba con una espera fija de 701ms fallaría. waitFor se adapta y espera el tiempo necesario, haciendo la prueba más mantenible.
+
+25. ¿Cuál es un beneficio clave de usar una librería como axios-mock-adapter al probar funciones que realizan peticiones HTTP?
+
+**Permite simular y controlar las respuestas de la API (tanto de éxito como de error) sin depender de una red o de la disponibilidad del servicio externo, haciendo las pruebas rápidas y fiables.** Permite un control total sobre el escenario de prueba, simulando respuestas exitosas con datos específicos o diferentes tipos de errores (404, 500, etc.) para verificar que la aplicación los maneja correctamente.
+
+26. Verdadero o Falso: Cuando se utiliza una herramienta como Vitest, es una buena práctica aislar el estado de cada prueba para evitar que el resultado de una afecte a la siguiente, lo cual se puede lograr usando el hook de ciclo de vida beforeEach.
+
+**Verdadero**. Las pruebas deben ser independientes. Si una prueba modifica un estado (ej. un custom hook) que es compartido entre varias pruebas, puede causar resultados impredecibles en las pruebas subsecuentes. beforeEach se ejecuta antes de cada test, permitiendo resetear el estado y asegurar un punto de partida limpio para cada una.
+
+27. ¿Cuál es el propósito principal de usar un "espía" (`vi.spyOn`) sobre un método existente, como `console.error`?
+
+**Para observar si el método es llamado y con qué argumentos, sin necesariamente alterar su comportamiento original.** Un espía actúa como un "observador" que registra las interacciones con un método. Aunque se le puede añadir una implementación mock, su propósito fundamental es espiar las llamadas.
+
+28. Cuando se intenta verificar que un elemento no está presente en el DOM, ¿por qué una consulta como `screen.getByRole('dialog')` no es adecuada y cuál es una alternativa común?
+
+**getByRole no funciona en el entorno de jsdom. Una alternativa es usar container.querySelector.** La lección explica que `getByRole` lanza una excepción si no encuentra el elemento. Se enseña como alternativa el uso de `container.querySelector('p')`, que devuelve `null` si no encuentra el elemento, permitiendo hacer una aserción como `expect(p).toBeNull()`.
+
+29. Verdadero o Falso: Un reporte de cobertura de pruebas del 100% significa que la aplicación está libre de errores lógicos.
+
+**Falso**. El reporte de cobertura solo indica qué líneas de código se ejecutaron durante las pruebas. No puede verificar si la lógica es correcta o si se han considerado todos los casos de uso posibles. Una función puede tener 100% de cobertura y aun así contener un error lógico que las pruebas no detectaron.
+
+30. Al configurar un pipeline de CI/CD, ¿por qué se utiliza el comando vitest run en lugar de simplemente vitest?
+
+**vitest inicia en modo "watch" u "observador", esperando cambios y nunca finaliza por sí solo. vitest run ejecuta todas las pruebas una vez y luego termina el proceso, lo cual es necesario para un script automatizado.** Un pipeline automático necesita que cada paso (como el de testing) finalice para poder continuar con el siguiente (como el build). El modo "watch" de vitest se quedaría "colgado", deteniendo el pipeline.

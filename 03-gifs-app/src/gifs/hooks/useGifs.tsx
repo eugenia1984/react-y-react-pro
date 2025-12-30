@@ -19,14 +19,17 @@ export const useGifs = () => {
     gifsCache.current[term] = gifs;
   }
 
-  const handleSearch = async (query: string) => {
-    query = query.trim().toLowerCase(); // delete empty spaces
+  const handleSearch = async (query: string = '') => {
+    // delete empty spaces
+    query = query.trim().toLowerCase(); 
 
     if (query.length === 0) return;
 
-    if (previousTerms.includes(query)) return; // avoid duplicated
+    // avoid duplicated
+    if (previousTerms.includes(query)) return; 
 
-    setPreviousTerms([query, ...previousTerms].splice(0, 8)); // Have only the last 7 searches
+    // Have only the last 7 searches
+    setPreviousTerms([query, ...previousTerms].splice(0, 8)); 
 
     // Use Giphy APi to get the gifs
     const gifs = await getGifsByQuery(query);
@@ -34,6 +37,7 @@ export const useGifs = () => {
 
     gifsCache.current[query] = gifs;
   }
+  
   return {
     // Properties
     gifs,

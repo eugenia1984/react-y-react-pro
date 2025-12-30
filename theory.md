@@ -251,6 +251,16 @@ Otro modo es utilizando el `screen`. Se usa cuando hay eventos y datos que se ac
 
 5. Para ver el % de coverage, correr: `npm run coverage` y voy a tener una nueva arpeta en mi proyecto: `coverage`, dentro tengo un `index.html` y asi puedo ver en el navegador lo mismo que veo como una tabla por consola.
 
+## Que el testing forme parte del proceso de construcción (CI/CD)
+
+1. En el `script` del `package.json` agrego: `"test:only": "vitest run",`
+
+2. Con: `npm run test only` hace le proceso
+
+3. Lo agrego en el `script` en la parte del `bluid`:  `    "build": "npm run test:only && tsc -b && vite build",`
+
+4. Hay que tener cuidado, porque si ahora un test falla, no se va a hacer el build.
+
 ---
 
 ## GENERAR VERSION DE PRODUCCION
