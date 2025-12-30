@@ -14,6 +14,8 @@ Cursos de Fernando Herrera: **React** y **React Pro**
 
 - En [**03-gifs-app**](https://github.com/eugenia1984/react-y-react-pro/tree/main/03-gifs-app) se crea una app en React para ver: peticiones HTTP, debounce, manejo de estado, comunicación entre componentes, useEffect, variables de entorno, fuentes personalizadas, custom Hooks - Hooks personalizados, DevTools de React, useRef - Hook propio de React, generar versión de producción y separación de responsabilidades. Testing: Pruebas sobre hooks / Pruebas sobre custom hooks / Pruebas con tareas asíncronas / Pruebas con tareas que involucran timeouts / Pruebas sobre axios / Integrar testing en el proceso de construcción / Espías / Sobre escribir funciones para el testing / Manejo de excepciones.
 
+- En [**04-hooks-app**](https://github.com/eugenia1984/react-y-react-pro/tree/main/04-hooks-app) se crea una app en React para ver: los hooks tradicionales y especializarlos en los "custom hooks": useState, useRef, useEffect, Custom Hooks (useCounter, usePokemon, useTrafficLight) y conectar múltiples custom hooks entre sí.
+
 ---
 
 # <img width="36" height="36" src="https://img.icons8.com/officel/16/command-line.png" alt="command-line"/> Tecnologías:
