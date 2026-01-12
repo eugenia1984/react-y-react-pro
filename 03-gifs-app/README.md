@@ -41,17 +41,21 @@ Se crea una app en React en la cual se pueden buscar meme.
 
 - <img width="24" height="24" src="https://img.icons8.com/?size=24&id=dJjTWMogzFzg&format=png&color=000000" alt="Vite" /> [Vite](https://vite.dev/)
 
-- [Vitest](https://vitest.dev/) y React Testing Library (para los test) 
-
--> se pueden instalar por comando con: `npm install --save-dev @testing-library/react @testing-library/dom vitest jsdom`. 
-
--> Crear los script en `package.json`, asi con `npm run test` corremos los test.
-
--> Configurar `vite.config.ts`.
+- [Vitest](https://vitest.dev/) y [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/) (para los test) 
 
 - Axios
 
 - Axios-Mock-Adapter
+
+---
+
+### Vitest y React Testing Library
+
+1. Se pueden instalar por comando con: `npm install --save-dev @testing-library/react @testing-library/dom vitest jsdom`. 
+
+2. Crear los script en `package.json`, asi con `npm run test` corremos los test.
+
+3. Configurar `vite.config.ts`.
 
 ---
 
