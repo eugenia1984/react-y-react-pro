@@ -139,8 +139,7 @@ export function Counter() {
 
 Hooks que ofrecen comportamientos adicionales
 
-- `useReducer`
-: alternativa al useState para lógica compleja
+- `useReducer`: alternativa al useState para lógica compleja
 
 - `useRef`: referencias motables que no causan re-render
 
