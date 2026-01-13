@@ -2,7 +2,7 @@
 
 En este proyecto [**02-first-steps**](https://github.com/eugenia1984/react-y-react-pro/blob/main/02-first-steps) hay ejercicios de React para ver:
 
-- componentes. *tip*: con el snipper y `rafc` se crea la estructura básca del componente.
+- componentes (*tip*: con el snipper y `rafc` se crea la estructura básca del componente)
 
 - estructura y nomenclatura
 

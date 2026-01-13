@@ -10,7 +10,7 @@ Mini aplicación para refrescar conceptos de **JavaScript** y **TypeScript**
 
 - <img width="24" height="24" src="https://img.icons8.com/color/24/typescript.png" alt="typescript"/> [TypeScript](https://www.typescriptlang.org/)
 
-- <img width="24" height="24" src="https://img.icons8.com/office/24/react.png" alt="react"/> R[React](https://react.dev/)
+- <img width="24" height="24" src="https://img.icons8.com/office/24/react.png" alt="react"/> [React](https://react.dev/)
 
 - <img width="24" height="24" src="https://img.icons8.com/?size=24&id=dJjTWMogzFzg&format=png&color=000000" alt="Vite" /> [Vite](https://vite.dev/)
 

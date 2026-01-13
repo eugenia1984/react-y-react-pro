@@ -26,21 +26,23 @@ Cursos de Fernando Herrera: **React** y **React Pro**
 
 - <img width="24" height="24" src="https://img.icons8.com/color/24/javascript--v1.png" alt="javascript"/> JavaScript
 
-- <img width="24" height="24" src="https://img.icons8.com/color/24/typescript.png" alt="typescript"/> TypeScript
+- <img width="24" height="24" src="https://img.icons8.com/color/24/typescript.png" alt="typescript"/> [TypeScript](https://www.typescriptlang.org/)
 
 - JSX
 
-- <img width="24" height="24" src="https://img.icons8.com/office/24/react.png" alt="react"/> React
+- <img width="24" height="24" src="https://img.icons8.com/office/24/react.png" alt="react"/> [React](https://react.dev/)
 
-- <img width="24" height="24" src="https://img.icons8.com/?size=24&id=dJjTWMogzFzg&format=png&color=000000" alt="Vite" /> Vite, Vitest
+- <img width="24" height="24" src="https://img.icons8.com/?size=24&id=dJjTWMogzFzg&format=png&color=000000" alt="Vite" /> [Vite](https://vite.dev/)
 
-- React Testing Library
+- [Vitest](https://vitest.dev/)
 
-- <img width="24" height="24" src="https://img.icons8.com/color/24/nodejs.png" alt="nodejs"/> Nodejs
+- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
 
-- <img width="24" height="24" src="https://img.icons8.com/?size=24&id=EPbEfEa7o8CB&format=png&color=000000" alt="Postman"/> Postman
+- <img width="24" height="24" src="https://img.icons8.com/color/24/nodejs.png" alt="nodejs"/> [Nodejs](https://nodejs.org/en)
 
-- Axios
+- <img width="24" height="24" src="https://img.icons8.com/?size=24&id=EPbEfEa7o8CB&format=png&color=000000" alt="Postman"/> [Postman](https://www.postman.com/)
+
+- [Axios](https://axios-http.com/docs/intro)
 
 - Axios-Mock-Adapter
 
