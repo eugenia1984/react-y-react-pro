@@ -7,10 +7,7 @@ export const PokemonPage = () => {
     <div className="bg-gradient flex flex-col items-center">
       <h1 className="text-2xl font-thin text-white">Pokémon</h1>
       <h2 className="text-xl font-bold text-white">#{counter} Bulbasaur</h2>
-      <img
-        src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${counter}.png`}
-        alt=""
-      />
+      <p>Firmness: XX</p>
 
       <div className="flex gap-6">
         <button 

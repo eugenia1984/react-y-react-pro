@@ -34,6 +34,8 @@ Puntualmente veremos:
 
 - <img  width="24" height="24" src="https://img.icons8.com/?size=24&id=CIAZz2CYc6Kc&format=png&color=000000" alt="Tailwind" />[Tailwind.CSS](https://tailwindcss.com/), para los estilos
 
+- [PokeAPI](https://pokeapi.co/), para otener la información de los Pokemones
+
 ---
 
 ### Tailwind.CSS para los estilos
